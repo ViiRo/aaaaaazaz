@@ -26,19 +26,19 @@ client2.on('ready', () => {
 
 client.on('message', message => {
     if(message.content === prefix+'راتب'){
-        message.channel.send('d')
+        message.channel.send('#credit')
     }
 });
 
 client.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('c')
+        message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send("r "+"<@" + myid + ">")
+        message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
 
@@ -77,19 +77,19 @@ if (!rank) return message.reply(' ')
 
 client2.on('message', message => {
     if(message.content === prefix+'راتب'){
-        message.channel.send('d')
+        message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('c')
+        message.channel.send('#credit')
     }
 });
 
 client2.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send('r "+"<@" + myid + ">"')
+        message.channel.send('#rep "+"<@" + myid + ">"')
     }
 });
 
