@@ -26,7 +26,7 @@ client2.on('ready', () => {
 
 client.on('message', message => {
     if(message.content === prefix+'راتب'){
-        message.channel.send('#credit')
+        message.channel.send('#daily')
     }
 });
 
